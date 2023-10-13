@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "CyrillicRibbon";
+	src: url("../fonts/cyrillicribbon.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("../fonts/Jost-400-Book.woff2") format("woff2");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Jost";
+	src: url("../fonts/Jost-500-Medium.woff2") format("woff2");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Jost";
+	src: url("../fonts/Jost-600-Semi.woff2") format("woff2");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Jost";
+	src: url("../fonts/Jost-700-Bold.woff2") format("woff2");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Jost";
+	src: url("../fonts/Jost-900-Black.woff2") format("woff2");
+	font-weight: 900;
+}
+@font-face {
+	font-family: "SvgFont";
+	src: url("../fonts/svg/SvgFont.eot");
+	src: url("../fonts/svg/SvgFont.eot") format("embedded-opentype"),
+		url("../fonts/svg/SvgFont.woff2") format("woff2"),
+		url("../fonts/svg/SvgFont.woff") format("woff"),
+		url("../fonts/svg/SvgFont.ttf") format("truetype"),
+		url("../fonts/svg/SvgFont.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

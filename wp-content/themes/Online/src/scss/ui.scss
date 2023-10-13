@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
+	height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+	overflow-x: hidden;
+	transition: all .5s;
+	align-items: stretch;
+	scroll-snap-type: y mandatory;
+	overflow: auto;
+}
+main {
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	& > :first-child {
+		// margin-top: 80px;
+		margin-bottom: 0;
+		// @media (max-width: 920px) {
+		// 	margin-top: 90px;
+		// }
+	}
+}
+section {
+	position: relative;
+	padding: 80px 0;
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+a, button {
+	cursor: pointer;
+}
+i[class^='icon-'] {
+	font-family: "SvgFont";
+	font-style: normal;
+}
+.wrapper {
+	position: relative;
+	max-width: 1280px;
+	margin: auto;
+	padding: 0 12px;
+}
+// Панель админка
+#wpadminbar {
+	top: unset;
+	bottom: 0px;
+	position: fixed;
+}
+
+// Заголовки
+.title {
+	text-align: center;
+	max-width: 900px;
+	margin: auto;
+}
+.left {
+	text-align: left;
+}
+
+// Допы
+.upc {
+	text-transform: uppercase;
+}
+
+// Цвета фона
+.bg-alt {
+	background: var(--bg2);
+}
+.bg-accent {
+	background: var(--accent);
+}
+.bg-hover {
+	background: var(--hover);
+}
+.bg-active {
+	background: var(--active);
+}
+
+// Иконка 16х16
+.icon-16 {
+	width: 16px;
+	height: 16px;
+	background: var(--accent);
+	border-radius: 2px;
+}

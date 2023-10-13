@@ -1,0 +1,45 @@
+.advantages {
+	&__dual {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 24px;
+		margin-top: 200px;
+		position: relative;
+	}
+	&__img {
+		width: 327px;
+		height: 239px;
+		position: absolute;
+		left: calc(50% - 176px);
+		top: -200px;
+	}
+	&__icon {
+		width: 50px;
+	}
+	&__item {
+		background: var(--bg1);
+		flex: 1 1 280px;
+		flex-wrap: wrap;
+		padding: 24px;
+		padding-left: 48px;
+
+		p {
+			&::before {
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				height: 16px;
+				width: 16px;
+				margin-right: 8px;
+				margin-left: -24px;
+				border-radius: 2px;
+				content: "\f00c";
+				font-family: "Font Awesome 6 Free";
+				font-weight: 900;
+				font-size: 10px;
+				background: var(--accent);
+				color: var(--bg1);
+			}
+		}
+	}
+}

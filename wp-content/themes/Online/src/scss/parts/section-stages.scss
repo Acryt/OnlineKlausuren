@@ -1,0 +1,16 @@
+.stages {
+	&__cont {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 24px;
+	}
+	&__part {
+		flex: 1 1 280px;
+	}
+	h4 {
+		color: var(--accent);
+	}
+	&__text {
+		margin: 16px 0 24px;
+	}
+}

@@ -1,0 +1,37 @@
+.chain {
+	padding: 80px 0;
+	&__bg {
+		position: absolute;
+		left: 0;
+		top: -15%;
+		z-index: -1;
+	}
+	&__cont {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 32px;
+		justify-content: space-around;
+		padding: 40px;
+	}
+	&__item {
+		position: relative;
+		flex: 1 1 260px;
+		background: var(--bg1);
+		border: 2px solid var(--bg2);
+		border-top: 8px solid var(--hover);
+		border-radius: 8px;
+		margin-top: 60px;
+		padding: 24px;
+		padding-top: 80px;
+	}
+	&__img {
+		position: absolute;
+		width: 120px;
+		height: 120px;
+		top: -60px;
+		left: calc(50% - 60px);
+		background: var(--bg2);
+		border-radius: 4px;
+		padding: 8px;
+	}
+}

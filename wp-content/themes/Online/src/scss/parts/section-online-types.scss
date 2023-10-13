@@ -1,0 +1,40 @@
+.online-types {
+	&__cont {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 24px;
+		margin-top: 24px;
+		align-items: center;
+		transition: all .5s;
+		min-height: 400px;
+	}
+	&__item {
+		flex: 1 0 280px;
+		display: flex;
+		flex-wrap: wrap;
+		background: var(--bg1);
+		border-radius: 8px;
+		padding: 24px;
+		gap: 12px;
+		cursor: pointer;
+		transition: all .5s;
+		min-height: 330px;
+		.btn__height {
+			height: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			overflow: hidden;
+		}
+		&:hover {
+			.btn__height {
+				padding-top: 12px;
+				padding-bottom: 12px;
+				height: 48px;
+			}
+		}
+	}
+	&__img {
+		width: 80px;
+		height: 80px;
+	}
+}

@@ -1,0 +1,28 @@
+.img-text-table {
+	&__cont {
+		display: flex;
+		gap: 32px;
+	}
+	&__img {
+		flex: 0 1 400px;
+	}
+	&__text-table {
+		flex: 0 1 700px;
+
+		table {
+			border-collapse: collapse;
+			margin: 32px 0;
+		}
+		td {
+			border: 2px solid var(--bg3);
+			height: 40px;
+			padding: 4px 8px;
+			&:first-child {
+				border-left: unset;
+			}
+			&:last-child {
+				border-right: unset;
+			}
+		}
+	}
+}

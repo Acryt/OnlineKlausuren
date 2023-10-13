@@ -1,0 +1,46 @@
+.footer {
+	background: var(--head);
+	color: var(--bg1);
+	padding: 40px 0;
+
+	&__info {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 32px;
+	}
+	&__logo {
+		flex: 0 0 200px;
+	}
+	&__menu {
+		// width: calc(100% - 200px);
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 24px;
+	}
+	&__last {
+		flex: 0 0 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__pay {
+		display: flex;
+		gap: 12px;
+
+		img {
+			height: 32px;
+		}
+	}
+	p {
+		color: var(--bg1);
+		font-size: 14px;
+	}
+	a {
+		color: var(--bg1);
+		&:hover {
+			color: var(--hover);
+		}
+	}
+}

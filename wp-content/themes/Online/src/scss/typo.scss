@@ -1,0 +1,157 @@
+html {
+	font-size: 16px;
+	font-family: "Jost";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--head);
+	font-weight: 700;
+	line-height: 140%;
+	scroll-margin-top: 80px;
+	scroll-snap-align: start;
+	scroll-snap-stop: normal;
+	margin: 0;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-align: center;
+	max-width: 900px;
+	margin: auto;
+}
+h1 {
+	@include responsiveFont(28, 56);
+	line-height: 128%;
+}
+h2 {
+	@include responsiveFont(24, 40);
+}
+h3 {
+	@include responsiveFont(22, 30);
+}
+h4 {
+	@include responsiveFont(20, 26);
+}
+h5 {
+	@include responsiveFont(18, 22);
+}
+h6 {
+	@include responsiveFont(16, 18);
+}
+* + h2 {
+	margin-top: 0.8em;
+}
+* + h3 {
+	margin-top: 0.7em;
+}
+* + h4 {
+	margin-top: 0.7em;
+}
+* + h5 {
+	margin-top: 0.6em;
+}
+* + h6 {
+	margin-top: 0.6em;
+}
+p {
+	color: var(--text);
+	margin: 0;
+	font-weight: 400;
+	line-height: 150%;
+}
+* + p {
+	margin-top: responsive(8, 16);
+	@media (min-width: 1280px) {
+		margin-top: 16px;
+	}
+	margin-bottom: 0;
+}
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6 {
+	margin-top: 1em;
+}
+div + h1,
+div + h2,
+div + h3,
+div + h4,
+div + h5,
+div + h6 {
+	margin-top: 0;
+}
+li {
+	position: relative;
+	display: list-item;
+	width: 100%;
+	padding-left: 16px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	&::marker {
+		color: var(--hover);
+		font-weight: 600;
+	}
+}
+ul {
+	padding-left: 10px;
+
+	li {
+		list-style-type: none;
+		color: var(--text);
+		margin: 0px;
+		margin-bottom: 0.5em;
+	}
+}
+ol {
+	padding-left: 24px;
+
+	li {
+		padding-left: 4px;
+		list-style-position: outside;
+	}
+}
+
+footer p {
+	margin: 0;
+}
+div + p {
+	margin: 0;
+}
+p,
+ul li,
+ol li,
+option {
+	@include responsiveFont(14, 16);
+}
+strong {
+	font-weight: 600;
+	@include responsiveFont(16, 18);
+}
+p span {
+	color: var(--accent);
+}
+a {
+	text-decoration: none;
+	color: var(--head);
+	transition: all 0.3s;
+	&:hover {
+		color: var(--accent);
+	}
+	&:active {
+	}
+}
+.s {
+	font-size: 12px;
+}
+.ss {
+	font-size: 10px;
+}

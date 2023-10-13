@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="018-hard-hat.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="52.9375"
+     inkscape:cx="8.0188902"
+     inkscape:cy="8.0094451"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs9">
+    <clipPath
+       id="clip0_222_3988">
+      <rect
+         width="16"
+         height="16"
+         fill="white"
+         id="rect6" />
+    </clipPath>
+  </defs>
+  <path
+     d="m 15.01889,9.0094451 c 0,-2.50781 -1.54,-4.65375 -3.7247,-5.55063 l -1.2753,2.55063 v -3.5 c 0,-0.13261 -0.05268,-0.25979 -0.1464498,-0.35355 -0.09376,-0.09377 -0.22094,-0.14645 -0.35355,-0.14645 h -3 c -0.13261,0 -0.25979,0.05268 -0.35355,0.14645 -0.09377,0.09376 -0.14645,0.22094 -0.14645,0.35355 v 3.5 l -1.27531,-2.55063 c -2.18469,0.89688 -3.72469,3.04282 -3.72469,5.55063 V 11.009445 H 15.01889 Z m 0.5,2.9999999 H 0.5188902 c -0.132608,0 -0.259785,0.0527 -0.353553,0.1464 -0.0937686,0.0938 -0.146447,0.221 -0.146447,0.3536 v 1 c 0,0.1326 0.0526784,0.2598 0.146447,0.3536 0.093768,0.0937 0.220945,0.1464 0.353553,0.1464 H 15.51889 c 0.1326,0 0.2598,-0.0527 0.3536,-0.1464 0.0937,-0.0938 0.1464,-0.221 0.1464,-0.3536 v -1 c 0,-0.1326 -0.0527,-0.2598 -0.1464,-0.3536 -0.0938,-0.0937 -0.221,-0.1464 -0.3536,-0.1464 z"
+     fill="#007eef"
+     id="path2" />
+</svg>

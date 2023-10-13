@@ -1,0 +1,22 @@
+// Светлая тема
+:root {
+	--bg1: #ffffff;
+	--bg2: #f9f8fd;
+	--bg3: #dde3eb;
+	--text: #737894;
+	--head: #162b43;
+	--accent: #007eef;
+	--hover: #dbf122;
+	--active: #01e675;
+	--shadow: #6f728429;
+}
+// Темная тема
+// @media (prefers-color-scheme: dark) {
+// 	:root {
+// 	--bg: #ffffff;
+// 	--text: #67878e;
+// 	--head: #010648;
+// 	--accent: #1e2364;
+// 	--hover: #6e6cff;
+// 	}
+// }

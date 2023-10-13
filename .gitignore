@@ -1,0 +1,15 @@
+vendor
+node_modules
+
+wp-admin
+wp-includes
+
+wp-content/upgrade
+wp-content/upgrade-temp-backup
+dist
+**/inc/Ajax*
+
+robot*
+composer.lock
+yarn.lock
+cache

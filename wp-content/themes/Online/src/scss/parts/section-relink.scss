@@ -1,0 +1,14 @@
+.relink {
+	&__cont {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 24px;
+		i {
+			color: var(--accent);
+			margin-right:8px;
+		}
+		& > * {
+			flex: 1 1 280px;
+		}
+	}
+}

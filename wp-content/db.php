@@ -1,0 +1,1 @@
+C:/OSPanel/domains/onlineklausuren.det/wp-content/plugins/query-monitor/wp-content/db.php

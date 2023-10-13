@@ -1,0 +1,39 @@
+.first-screen {
+	background: var(--bg1);
+	overflow: hidden;
+	padding: 40px 0;
+	border-bottom: 2px solid var(--bg2);
+
+	&__bg {
+		position: absolute;
+		object-fit: cover;
+		object-position: center top;
+		top: 0;
+	}
+	&__dual {
+		display: flex;
+		gap: 24px;
+	}
+	&__part {
+		flex: 1 1 600px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 24px;
+		
+		& > * {
+			margin: 0;
+		}
+	}
+	h1 {
+		color: var(--accent);
+	}
+	h1 > span {
+		display: block;
+		font-family: "CyrillicRibbon";
+		color: var(--head);
+		font-size: 92px;
+		font-style: normal;
+		font-weight: 400;
+		margin-bottom: 16px;
+	}
+}

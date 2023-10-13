@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="033-street-view.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="52.9375"
+     inkscape:cx="8"
+     inkscape:cy="8.0094451"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs9">
+    <clipPath
+       id="clip0_222_4013">
+      <rect
+         width="16"
+         height="16"
+         fill="white"
+         id="rect6" />
+    </clipPath>
+  </defs>
+  <path
+     d="m 11.4969,10.314445 c -0.1444,0.1656 -0.3057,0.3156 -0.4969,0.4266 v 0.7168 c 2.0787,0.2919 3.5,0.8766 3.5,1.5516 0,0.9666 -2.91,1.75 -6.5,1.75 -3.59,0 -6.5,-0.7834 -6.5,-1.75 0,-0.675 1.42125,-1.2594 3.5,-1.5516 v -0.7168 c -0.19125,-0.111 -0.3525,-0.261 -0.49687,-0.4266 C 1.83969,10.801345 0,11.823545 0,13.009445 c 0,1.6569 3.58187,3 8,3 4.4181,0 8,-1.3431 8,-3 0,-1.1859 -1.8397,-2.2081 -4.5031,-2.695 z M 8,4.0094451 c 1.10469,0 2,-0.89531 2,-2 0,-1.104687 -0.89531,-2 -2,-2 -1.10469,0 -2,0.895313 -2,2 0,1.10469 0.89531,2 2,2 z M 6,10.009445 v 3 c 0,0.5522 0.44781,1 1,1 h 2 c 0.55219,0 1,-0.4478 1,-1 v -3 c 0.5522,0 1,-0.4478099 1,-0.9999999 v -3 c 0,-0.82844 -0.6716,-1.5 -1.5,-1.5 H 9.13125 c -0.34594,0.15719 -0.72687,0.25 -1.13125,0.25 -0.40438,0 -0.78531,-0.09281 -1.13125,-0.25 H 6.5 c -0.82844,0 -1.5,0.67156 -1.5,1.5 v 3 c 0,0.55219 0.44781,0.9999999 1,0.9999999 z"
+     fill="#007eef"
+     id="path2" />
+</svg>

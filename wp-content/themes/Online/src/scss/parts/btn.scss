@@ -1,0 +1,47 @@
+.btn {
+	display: inline-flex;
+	padding: 12px 24px;
+	align-items: center;
+	gap: 4px;
+	border-radius: 4px;
+	background: var(--accent);
+	color: var(--bg1);
+	border: unset;
+	cursor: pointer;
+	transition: all 0.5s;
+	&:hover {
+		background: var(--hover);
+		color: var(--head);
+	}
+	&__hover {
+		@extend .btn;
+		&:hover {
+			background: var(--hover);
+			color: var(--head);
+		}
+	}
+	&__height {
+		@extend .btn;
+		padding: 16px 24px;
+	}
+	&__active {
+		@extend .btn;
+		padding: 16px 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
+		&:hover {
+			background: var(--active);
+		}
+	}
+	&__white {
+		background: var(--bg1);
+		color: var(--accent);
+		border: 2px solid var(--accent);
+		&:hover {
+			background: var(--accent);
+			color: var(--bg1);
+		}
+	}
+}
