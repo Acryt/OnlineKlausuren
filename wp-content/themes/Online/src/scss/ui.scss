@@ -14,7 +14,7 @@ body {
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
 	overflow-x: hidden;
-	transition: all .5s;
+	transition: all 0.5s;
 	align-items: stretch;
 	scroll-snap-type: y mandatory;
 	overflow: auto;
@@ -41,10 +41,11 @@ img {
 	height: 100%;
 	object-fit: contain;
 }
-a, button {
+a,
+button {
 	cursor: pointer;
 }
-i[class^='icon-'] {
+i[class^="icon-"] {
 	font-family: "SvgFont";
 	font-style: normal;
 }
@@ -54,6 +55,19 @@ i[class^='icon-'] {
 	margin: auto;
 	padding: 0 12px;
 }
+.fc {
+	display: flex;
+	gap: 32px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.fdc {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 32px;
+}
 // Панель админка
 #wpadminbar {
 	top: unset;
@@ -62,7 +76,7 @@ i[class^='icon-'] {
 }
 
 // Заголовки
-.title {
+.center {
 	text-align: center;
 	max-width: 900px;
 	margin: auto;
@@ -75,7 +89,9 @@ i[class^='icon-'] {
 .upc {
 	text-transform: uppercase;
 }
-
+.bg {
+	background: var(--bg1);
+}
 // Цвета фона
 .bg-alt {
 	background: var(--bg2);

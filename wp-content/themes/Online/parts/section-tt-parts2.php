@@ -1,14 +1,14 @@
-<section class="text-img">
-	<div class="wrapper text-img__cont">
+<section class="tt-parts">
+	<div class="wrapper fc">
 		<h2>Sie streben das bestmögliche Ergebnis für eine bevorstehende Online-Prüfung an?</h2>
-		<div class="text-img__dual">
-			<div class="text-img__text">
-				<button class="text-img__btn">
+		<div class="tt-parts__two">
+			<div class="tt-parts__long">
+				<button class="tt-parts__btn">
 					<img src="<?php echo URI . IMG . 'btn-yellow.svg' ?>" alt="">
 					<strong>ab 170 Euro</strong>
 					<span>je 30 Minuten</span>
 				</button>
-				<div class="text-img__note"><i class="fa-solid fa-calendar-days"></i>Bearbeitungsdauer:<span>Ab einem
+				<div class="tt-parts__note"><i class="fa-solid fa-calendar-days"></i>Bearbeitungsdauer:<span>Ab einem
 						tag</span></div>
 				<p>
 					So individuell das Ghostwriting auf Ihren persönlichen Bedarf abgestimmt wird, so unterschiedlich sind
@@ -24,7 +24,7 @@
 				<p><strong>Beschreiben Sie kurz Ihre Anforderungen und wir erstellen in wenigen Stunden ein unverbindliches
 						Angebot</strong></p>
 			</div>
-			<img class="text-img__img" src="<?php echo URI . IMG . 'mid/21.svg' ?>" alt="">
+			<div class="tt-parts__short"><img src="<?php echo URI . IMG . 'mid/21.svg' ?>" alt=""></div>
 		</div>
 	</div>
 </section>

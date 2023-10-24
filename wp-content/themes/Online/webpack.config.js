@@ -1,6 +1,6 @@
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import autoprefixer from "autoprefixer";
-import sass from "sass";
+import * as sass from "sass";
 import path from "path";
 import { fileURLToPath } from "url";
 

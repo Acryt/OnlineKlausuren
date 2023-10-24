@@ -1,8 +1,11 @@
 <section class="online-types bg-alt">
-	<div class="wrapper">
-		<h2>Arten der Online-Klausuren</h2>
-		<p class="title">Bei Online-Klausuren gibt es drei unterschiedliche Arten, die teilweise je nach Dozent ineinander
-			übergehen können:</p>
+	<div class="wrapper fc">
+		<div class="title__cont">
+			<h2>Arten der Online-Klausuren</h2>
+			<p class="center">Bei Online-Klausuren gibt es drei unterschiedliche Arten, die teilweise je nach Dozent
+				ineinander
+				übergehen können:</p>
+		</div>
 		<div class="online-types__cont">
 			<div class="online-types__item">
 				<img class="online-types__img" src="<?php echo URI . IMG . 'mid/5.svg' ?>" alt="">

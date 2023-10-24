@@ -1,5 +1,5 @@
 <section class="relink">
-	<div class="wrapper">
+	<div class="wrapper fc">
 		<h2>Unsere Ghostwriter helfen Ihnen, Ihre Online-Klausur zu jedem Thema zu schreiben</h2>
 		<div class="relink__cont">
 			<a class="relink__item"><i class="icon-microscope"></i>Biologie</a>
@@ -43,14 +43,6 @@
 			<a class="relink__item"><i class="icon-users-gear"></i>Sozialwissenschaften</a>
 			<a class="relink__item"><i class="icon-paperclip"></i>Unterrichtsentwurf</a>
 		</div>
-		<div class="text-img__connect">
-			<h4 class="upc">Sie können Ihr Thema nicht in der Liste finden?</h4>
-			<p class="title">Kein Problem! Wir können Arbeiten zu jedem Thema verfassen. Wir arbeiten mit über 3000 Disziplinen!</p>
-			<div class="text-img__btns">
-				<a class="btn__active"><i class="fa-brands fa-whatsapp"></i>Erika</a>
-				<button class="btn__active"><i class="fa-solid fa-envelope"></i>E-Mail schreiben</button>
-				<button class="btn__active"><i class="fa-solid fa-phone"></i>Rückruf bestellen</button>
-			</div>
-		</div>
+		<?php get_template_part(SECTION . 'part-connect'); ?>
 	</div>
 </section>

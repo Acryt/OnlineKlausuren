@@ -27,7 +27,8 @@
     "swiper": "^8",
     "through2": "^4.0.2",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-stream": "^7.0.0"
   },
   "scripts": {
     "build": "webpack",

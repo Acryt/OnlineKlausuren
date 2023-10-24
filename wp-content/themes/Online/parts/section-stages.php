@@ -1,5 +1,5 @@
 <section class="stages">
-	<div class="wrapper">
+	<div class="wrapper fc">
 		<h2>Schritte des Selbststudiums für Online-Prüfungen</h2>
 		<div class="stages__cont">
 			<div class="stages__part">

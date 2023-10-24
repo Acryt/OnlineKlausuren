@@ -32,15 +32,6 @@
 				<p>Rechtzeitige Anfertigung Ihrer akademischen Arbeit</p>
 			</div>
 		</div>
-		<div class="text-img__connect">
-			<h4 class="upc">Im Voraus buchen!</h4>
-			<p class="title">Bei Bestellungen, die 2 Wochen im Voraus aufgegeben werden, sind die Kosten im Durchschnitt 15 % niedriger als bei Bestellungen, 
-die eine Woche im Voraus aufgegeben werden.</p>
-			<div class="text-img__btns">
-				<a class="btn__active"><i class="fa-brands fa-whatsapp"></i>Erika</a>
-				<button class="btn__active"><i class="fa-solid fa-envelope"></i>E-Mail schreiben</button>
-				<button class="btn__active"><i class="fa-solid fa-phone"></i>Rückruf bestellen</button>
-			</div>
-		</div>
+		<?php get_template_part( SECTION . 'part-connect'); ?>
 	</div>
 </section>

@@ -14,7 +14,7 @@
 	<?php
 	if (is_single()) { ?>
 		<script type="application/ld+json">
-							</script>
+								</script>
 	<?php } ?>
 	<script type="application/ld+json">
 		</script>
@@ -23,8 +23,8 @@
 
 <body>
 	<header class="header" name="top">
-		<div class="header__info">
-			<img class="header__logo" src="<?php echo URI . IMG . 'logo.svg' ?>" alt="">
+		<div class="header__info wrapper">
+			<a href="/"><img class="header__logo" src="<?php echo URI . IMG . 'logo.svg' ?>" alt=""></a>
 			<div class="header__info-text">
 				<a href="">Mo – So <b>8:00 – 23:00</b></a>
 				<a href="">info@onlineklausuren.de</a>
@@ -33,6 +33,8 @@
 				<button class="btn__hover"><i class="fa-solid fa-pen"></i>Unverbindlich Anfragen</button>
 			</div>
 		</div>
+	</header>
+	<div class="header__menu">
 		<div class="wrapper">
 			<nav class="header__nav">
 				<a href="">Про нас</a>
@@ -43,7 +45,7 @@
 				<a href="">Последние работы</a>
 				<a href="">Отзывы</a>
 				<a href="">Предметы</a>
-				<a href="">Факи</a>
+				<a href="/blog/">Blog</a>
 			</nav>
 		</div>
-	</header>
+	</div>

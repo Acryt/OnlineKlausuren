@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 // Font Awesome
-import "@fortawesome/fontawesome-free/css/all.css";
+// import "@fortawesome/fontawesome-free/css/all.css";
 
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox.css";
