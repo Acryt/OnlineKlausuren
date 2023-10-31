@@ -1,4 +1,4 @@
-<section class="relink">
+<section id="relink" class="relink">
 	<div class="wrapper fc">
 		<h2>Unsere Ghostwriter helfen Ihnen, Ihre Online-Klausur zu jedem Thema zu schreiben</h2>
 		<div class="relink__cont">
@@ -43,6 +43,18 @@
 			<a class="relink__item"><i class="icon-users-gear"></i>Sozialwissenschaften</a>
 			<a class="relink__item"><i class="icon-paperclip"></i>Unterrichtsentwurf</a>
 		</div>
-		<?php get_template_part(SECTION . 'part-connect'); ?>
+		<div class="connect">
+			<h4 class="upc">Haben Sie Ihren Fachbereich in der Liste nicht gefunden?</h4>
+			<p class="center">Kein Problem! Wir helfen, Online-Klausuren in jedem Fachbereich zu schreiben. Wir arbeiten
+				mit über 300 Disziplinen.</p>
+			<div class="connect__btns">
+				<a class="btn__active">
+					<div class="connect__img"><img src="<?php echo URI . IMG . 'erica.jpg' ?>" alt=""></div>
+					<i class="fa-brands fa-whatsapp"></i>Erika
+				</a>
+				<button class="btn__active"><i class="fa-solid fa-envelope"></i>E-Mail schreiben</button>
+				<button class="btn__active"><i class="fa-solid fa-phone"></i>Rückruf bestellen</button>
+			</div>
+		</div>
 	</div>
 </section>

@@ -1,8 +1,8 @@
 <section class="form-last">
 	<div class="wrapper">
-		<h2 class="upc">Sie haben die Antwort auf Ihre Frage nicht gefunden?
-			stellen Sie sie in diesem Fenster</h2>
-		<p class="center">Ein Manager wird Ihnen unter den angegebenen Kontaktdaten antworten</p>
+		<h2 class="upc">Haben Sie die Antwort auf Ihre Frage nicht gefunden? <br>
+			Stellen Sie Ihre Frage in diesem Fenster</h2>
+		<p class="center">Unser:e Kundenbetreuer:in wird Sie innerhalb von 15 Minuten kontaktieren</p>
 		<form class="form-last__form">
 			<div class="form-last__item">
 				<label for="message">Ihre Frage</label>
@@ -19,7 +19,7 @@
 			<div class="form-last__btn">
 				<button class="btn" type="submit">
 					<i class="fa-solid fa-pen"></i>
-					<span>Senden Sie</span>
+					<span>ABSCHICKEN</span>
 				</button>
 			</div>
 		</form>

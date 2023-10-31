@@ -108,4 +108,17 @@
 			font-weight: 700;
 		}
 	}
+	table {
+		border-collapse: collapse;
+		td {
+			border: 2px solid var(--bg3);
+			padding: 4px 12px;
+			&:first-child {
+				border-left: unset;
+			}
+			&:last-child {
+				border-right: unset;
+			}
+		}
+	}
 }

@@ -7,18 +7,18 @@
 				if (is_category()) {
 					echo single_term_title();
 				} else {
-					echo '<span>Ghostwriter</span> für Online-Klausuren oder Online-Prüfungen';
+					echo '<span>Ghostwriter</span> für Online-Klausuren und Online-Prüfungen';
 				}
 				?>
 			</h1>
-			<p>Wenn Sie nicht sicher sind, dass Sie eine Online-Klausur gut bestehen können, lassen Sie sich von einem
-				Ghostwriter dabei helfen. Unser Experte wird zur Zeit der Klausur online sein und Sie können ihm Fragen
-				stellen und von ihm die Antworten bekommen. Nach Worten unserer Kunden haben sie bis jetzt nur positive
-				Ghostwriter-Online-Klausur-Erfahrungen gehabt.</p>
-			<button class="btn__height"><i class="fa-solid fa-calculator"></i>Preis kalkulieren</button>
+			<p>Wenn Sie nicht sicher sind, dass Sie eine Online-Klausur oder eine Online-Prüfung selbst bestehen können,
+				lassen Sie sich von einem Ghostwriter dabei helfen. Unser Experte bzw. unsere Expertin wird zur Zeit online
+				sein und Sie können ihm/ihr Fragen stellen und von ihm/ihr Antworten bekommen. Nach Worten unserer Kunden
+				und Kundinnen haben sie bis jetzt nur positive Ghostwriter-Online-Klausur-Erfahrungen gehabt.</p>
+			<a href="#fb" class="btn__height"><i class="icon-calculator"></i> Preis kalkulieren</a>
 		</div>
 		<form class="tt-parts__short form bg" id="form-first" accept-charset="utf-8">
-			<p class="upc title"><strong>Заполните короткую форму и получите помощь с Вашим онлайн-экзаменом</strong></p>
+			<p class="upc title"><strong>Füllen Sie das kurze Formular aus und erhalten Sie Hilfe bei Ihrer Online-Prüfung</strong></p>
 			<div class="form__item">
 				<label for="name">Name</label>
 				<input type="text" name="name" placeholder="Dein Name">

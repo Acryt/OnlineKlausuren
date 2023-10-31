@@ -1,7 +1,6 @@
-<section class="slider-review">
+<section id="feedback" class="slider-review">
 	<div class="wrapper">
-		<h3>Отзывы студентов</h3>
-		<p class="center">Отзывы от тех, кто заказывал дипломную работу</p>
+		<h3>Feedback der Studenten</h3>
 		<div class="swiper slider-review__swiper">
 			<div class="swiper-wrapper">
 				<a class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1" href="http://placekitten.com/200/320">

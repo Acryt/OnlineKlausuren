@@ -8,7 +8,6 @@ class GeneralMeta
 	{
 		add_action('carbon_fields_register_fields', [$this, 'generalOptionsMeta']);
 		add_action('carbon_fields_register_fields', [$this, 'pageMeta']);
-		add_action('carbon_fields_register_fields', [$this, 'postMeta']);
 		// add_action('carbon_fields_theme_options_container_saved', [$this, 'generate_authors_xml']); // генерация sitemap авторов
 	}
 
@@ -16,39 +15,26 @@ class GeneralMeta
 	{
 		Container::make('theme_options', __('Options'))
 			->add_tab(__('Global Options'), CommonMeta::generalMeta())
+			->add_tab(__('Reviews'), CommonMeta::reviewMeta())
+			->add_tab(__('Stages'), CommonMeta::stagesMeta())
+			->add_tab(__('Types'), CommonMeta::onlineTypesMeta())
+			->add_tab(__('Better'), CommonMeta::betterMeta())
+			->add_tab(__('Guarantees'), CommonMeta::guaranteesMeta())
+			->add_tab(__('Advantages'), CommonMeta::advantMeta())
+			->add_tab(__('How it works'), CommonMeta::chainMeta())
 		;
 		Container::make('theme_options', __('FAQ'))
-			->add_tab(__('FAQ'), CommonMeta::faqAccrdMeta())
+			->add_tab(__('FAQ'), CommonMeta::faqMeta())
 		;
 	}
 	public function pageMeta ()
 	{
 		Container::make('post_meta', 'cf_page', 'Page Options')
 			// ->set_context('carbon_fields_after_title')
-			->where('post_type', '=', 'page')
-			->add_tab(__('Switches'), CommonMeta::pageMeta())
-			// ->add_tab(__('Meta'), CommonMeta::metaMeta())
-			// ->add_tab(__('First Screen'), CommonMeta::firstMeta())
-			// ->add_tab(__('FAQ'), CommonMeta::faqMeta())
-			// ->add_tab(__('Accordion'), CommonMeta::accrdMeta())
-			// ->add_tab(__('Content'), CommonMeta::contentMeta())
-			// ->add_tab(__('SEO x2'), CommonMeta::seoMeta())
-			// ->add_tab(__('Price'), CommonMeta::priceMeta())
-			// ->add_tab(__('Rating bottom'), CommonMeta::rateMeta())
-			// ->add_tab(__('Relink'), CommonMeta::relinkMeta())
-		;
-	}
-	public function postMeta ()
-	{
-		Container::make('post_meta', 'cf_post', 'Post Options')
-			// ->set_context('carbon_fields_after_title')
-			// ->where('post_type', '=', 'post')
-			// ->add_tab(__('Switches'), CommonMeta::switchMeta())
-			// ->add_tab(__('First Screen'), CommonMeta::firstMeta())
-			// ->add_tab(__('FAQ'), CommonMeta::faqMeta())
-			// ->add_tab(__('Accordion'), CommonMeta::accrdMeta())
-			// ->add_tab(__('Content'), CommonMeta::contentMeta())
-			// ->add_tab(__('SEO x2'), CommonMeta::seoMeta())
+			->where('post_type', '=', 'page' || 'post')
+			->add_tab(__('Страничные Title'), CommonMeta::titleMeta())
+			// ->add_tab(__('Forms'), CommonMeta::formsMeta())
+			->add_tab(__('Страничный FAQ'), CommonMeta::faqMeta())
 		;
 	}
 }

@@ -6,33 +6,27 @@
 				<img src="<?php echo URI . IMG . 'mid/1.svg' ?>" alt="">
 			</div>
 			<div class="tt-parts__long fdc">
-				<p>Wir garantieren hohe Qualität, beschäftigen die besten Autoren und bieten eine breite Palette weiterer
-					Vorteile. Wenn Sie also jemanden für das Schreiben Ihrer Forschungsarbeit bezahlen möchten, gibt es keine
-					bessere Anlaufstelle als UG-GWC!</p>
+				<p>Sicher garantieren wir Qualität, Diskretion und Datenschutz. Das ist selbstverständlich und kommt nicht in Frage. Aber es gibt Boni, die nicht so offensichtlich aber von großer Bedeutung sind.</p>
 				<table>
 					<tr>
-						<td>🏆 Elite-Experten</td>
-						<td>Hervorragende Schreiber</td>
+						<td><strong>Was bekommen Sie zusätzlich, wenn Sie Ihre Online-Klausur schreiben lassen?</strong></td>
+						<td><strong>Was verlieren Sie, wenn Sie eine Online-Klausur schreiben lassen?</strong></td>
 					</tr>
 					<tr>
-						<td>✅ Garantierte</td>
-						<td>Originalität Kein Plagiat</td>
+						<td>✅ Zeit für Ihre Familie und Freunde</td>
+						<td>❌ Stress</td>
 					</tr>
 					<tr>
-						<td>💰 Faire Preise</td>
-						<td>Zufriedenheitsgarantie</td>
+						<td>✅ Zeit, um in Ruhe Ihren Geschäften nachzugehen</td>
+						<td>❌ Schlaflosigkeit</td>
 					</tr>
 					<tr>
-						<td>✍️ Vielfältige Themen</td>
-						<td>Vielfältige Auswahl an Aufsätzen</td>
+						<td>✅ Zeit, um sich auf andere Prüfungen oder Klausuren vorzubereiten, die für Sie wichtiger sind</td>
+						<td>❌ Unsicherheit, ob Sie sich gut vorbereiten können</td>
 					</tr>
 					<tr>
-						<td>⏰ Zeitnahe Bearbeitung</td>
-						<td>Termintreue</td>
-					</tr>
-					<tr>
-						<td>✅ Maßgeschneiderte Unterstützung</td>
-						<td>Personalisierte Anleitung</td>
+						<td>✅ Sicherheit, dass Sie dank unserem Team in guten Händen sind</td>
+						<td>❌ Zeitmangel</td>
 					</tr>
 				</table>
 				<button class="btn__height"><i class="fa-solid fa-calculator"></i>Preis kalkulieren</button>

@@ -26,25 +26,21 @@
 		<div class="header__info wrapper">
 			<a href="/"><img class="header__logo" src="<?php echo URI . IMG . 'logo.svg' ?>" alt=""></a>
 			<div class="header__info-text">
-				<a href="">Mo – So <b>8:00 – 23:00</b></a>
-				<a href="">info@onlineklausuren.de</a>
-				<a href=""><i class="fa-solid fa-phone-flip"></i>+49 (30) 223-898-44</a>
-				<a href=""><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
-				<button class="btn__hover"><i class="fa-solid fa-pen"></i>Unverbindlich Anfragen</button>
+				<p>Mo – So <b>8:00 – 23:00</b></p>
+				<a href="mailto:info@onlineklausuren.de">info@onlineklausuren.de</a>
+				<a href="tel:+493022389844"><i class="icon-phone"></i>+49 (30) 223-898-44</a>
+				<a href="https://wa.me/493022389844"><i class="icon-whatsapp"></i>WhatsApp</a>
+				<a href="#fb" class="btn__hover"><i class="icon-pen"></i>UNVERBINDLICH ANFRAGEN</a>
 			</div>
 		</div>
 	</header>
 	<div class="header__menu">
 		<div class="wrapper">
 			<nav class="header__nav">
-				<a href="">Про нас</a>
-				<a href="">Почему мы</a>
-				<a href="">Гарантии</a>
-				<a href="">Скидки</a>
-				<a href="">Как заказать</a>
-				<a href="">Последние работы</a>
-				<a href="">Отзывы</a>
-				<a href="">Предметы</a>
+				<a href="#relink">Disziplinen</a>
+				<a href="#garantien">Garantien</a>
+				<a href="#feedback">Feedback</a>
+				<a href="#faq">FAQ</a>
 				<a href="/blog/">Blog</a>
 			</nav>
 		</div>

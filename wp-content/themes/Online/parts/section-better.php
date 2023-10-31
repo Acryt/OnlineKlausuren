@@ -1,11 +1,8 @@
 <section class="cards bg-alt">
 	<div class="wrapper fc">
 		<div class="title__cont">
-			<h2>Warum sind wir besser und warum wählt man uns?</h2>
-			<p class="center">
-				Wie stellen wir die Qualität unserer wissenschaftlichen Arbeiten
-				sicher?
-			</p>
+			<h2>Warum wählt man uns?</h2>
+			<p class="center">Wie helfen wir Studierenden, Online-Klausuren und Online Prüfungen abzulegen?</p>
 		</div>
 		<div class="cards__cont">
 			<div class="cards__item">
@@ -14,11 +11,11 @@
 					<div class=" icon-16"><i class="fa-solid fa-check"></i>
 				</div>
 			</div>
-			<h4>Erstklassige Experten</h4>
+			<h4>Qualität</h4>
 			<p>
-				Alle unsere Autoren sind Experten mit nachgewiesenen akademischen
-				Abschlüssen und Erfahrung. Alle Autoren schreiben die Arbeiten in
-				ihrer Muttersprache.
+				Bei uns sind mehr als 380 erprobte Fachleute angestellt. Alle verfügen über einen Bachelor-, Master- oder
+				Doktorabschluss in ihren Fachbereichen. Mit Ghostwriter-Studenten arbeiten wir nicht zusammen. Das ist ein
+				absolutes Muss. Sie können sicher sein, dass Sie eine hochqualifizierte Hilfe bekommen.
 			</p>
 		</div>
 		<div class="cards__item">
@@ -27,11 +24,10 @@
 					<div class=" icon-16"><i class="fa-solid fa-check"></i>
 			</div>
 		</div>
-		<h4>Erstklassige Experten</h4>
+		<h4>Schnellhilfe</h4>
 		<p>
-			Alle unsere Autoren sind Experten mit nachgewiesenen akademischen
-			Abschlüssen und Erfahrung. Alle Autoren schreiben die Arbeiten in
-			ihrer Muttersprache.
+			Ist Ihre Online-Klausur schon heute?
+			Wir haben 93 Experten und Expertinnen, die dringende Aufträge übernehmen, und sie erfolgreich realisieren.
 		</p>
 	</div>
 	<div class="cards__item">
@@ -40,11 +36,11 @@
 					<div class=" icon-16"><i class="fa-solid fa-check"></i>
 		</div>
 	</div>
-	<h4>Erstklassige Experten</h4>
+	<h4>Top-Service</h4>
 	<p>
-		Alle unsere Autoren sind Experten mit nachgewiesenen akademischen
-		Abschlüssen und Erfahrung. Alle Autoren schreiben die Arbeiten in
-		ihrer Muttersprache.
+		Ihrer Bestellung werden 2 persönliche Kundenbetreuer:innen zugewiesen.
+		Sie sind im ständigen Kontakt mit Ihnen, um entstehnede Fragen zu beantworten und den ganzen Prozess zu
+		kontrolieren.
 	</p>
 	</div>
 	<div class="cards__item">
@@ -53,11 +49,11 @@
 					<div class=" icon-16"><i class="fa-solid fa-check"></i>
 		</div>
 	</div>
-	<h4>Erstklassige Experten</h4>
+	<h4>Vertraulichkeit</h4>
 	<p>
-		Alle unsere Autoren sind Experten mit nachgewiesenen akademischen
-		Abschlüssen und Erfahrung. Alle Autoren schreiben die Arbeiten in
-		ihrer Muttersprache.
+		Sie können Ihrer unbedingten Diskretion versichert sein. Unsere Mitarbeiter:innen unterschreiben eine
+		Geheimhaltungsvereinbarung. Die Experten bzw Expertinnen wissen nicht, wem sie Hilfe leisten und keinen Zugang zu
+		Ihren Daten haben.
 	</p>
 	</div>
 	<div class="cards__item">
@@ -66,11 +62,10 @@
 					<div class=" icon-16"><i class="fa-solid fa-check"></i>
 		</div>
 	</div>
-	<h4>Erstklassige Experten</h4>
+	<h4>Datenschutz</h4>
 	<p>
-		Alle unsere Autoren sind Experten mit nachgewiesenen akademischen
-		Abschlüssen und Erfahrung. Alle Autoren schreiben die Arbeiten in
-		ihrer Muttersprache.
+		Auf unserer Webseite benutzen wir das Codierungssystem SSL (Secure Socket Layer). Ihre Daten sind vor Hacking
+		geschützt.
 	</p>
 	</div>
 	<div class="cards__item">
@@ -79,11 +74,9 @@
 					<div class=" icon-16"><i class="fa-solid fa-check"></i>
 		</div>
 	</div>
-	<h4>Erstklassige Experten</h4>
+	<h4>Preistransparenz</h4>
 	<p>
-		Alle unsere Autoren sind Experten mit nachgewiesenen akademischen
-		Abschlüssen und Erfahrung. Alle Autoren schreiben die Arbeiten in
-		ihrer Muttersprache.
+		Keine versteckten Kosten oder unerwarteten Preiserhöhungen. Wir nennen immer den endgültigen Preis.
 	</p>
 	</div>
 	</div>

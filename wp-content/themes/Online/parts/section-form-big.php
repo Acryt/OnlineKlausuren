@@ -1,11 +1,11 @@
-<section class="tt-parts bg-alt">
+<section id="fb" class="tt-parts bg-alt">
 	<div class="wrapper">
 		<h2>Anfrage hinterlassen</h2>
 		<p class="center">Hier können Sie Ihr unverbindliches Angebot erhalten</p>
 		<div class="tt-parts__two">
 			<form class="tt-parts__long form bg" id="form-big" accept-charset="utf-8">
 				<div class="form__item">
-					<label for="theme">* Thema der Arbeit</label>
+					<label for="theme">* Thema</label>
 					<input type="text" name="name" placeholder="Thema">
 				</div>
 				<div class="form__item short">
@@ -13,7 +13,7 @@
 					<input type="date" name="date">
 				</div>
 				<div class="form__item short">
-					<label for="time"></label>
+					<label for="time">* Uhrzeit</label>
 					<input type="time" name="time">
 				</div>
 				<div class="form__item">

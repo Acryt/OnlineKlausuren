@@ -10,7 +10,7 @@
 			</div>
 			<div class="content__aside">
 				<div class="content__slide">
-					<h4 class="form__heading">Anruf Bestellen</h4>
+					<h5 class="form__heading upc">Anruf Bestellen</h5>
 					<?php get_template_part('parts/form-medium'); ?>
 				</div>
 			</div>

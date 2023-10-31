@@ -11,4 +11,16 @@
 			flex: 0 1 200px;
 		}
 	}
+	&__img {
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		overflow: hidden;
+		img {
+			object-fit: cover;
+		}
+	}
+	.btn__active {
+		padding: 4px 16px;
+	}
 }
