@@ -8,6 +8,7 @@ get_header();
 <main>
 <?php 
 	get_template_part( SECTION . 'section-first-screen');
+	get_template_part( SECTION . 'section-warning');
 	get_template_part( SECTION . 'section-tt-parts1');
 	get_template_part( SECTION . 'section-stages');
 	get_template_part( SECTION . 'section-online-types');

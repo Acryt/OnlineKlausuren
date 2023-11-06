@@ -35,6 +35,10 @@ main {
 section {
 	position: relative;
 	padding: 80px 0;
+
+	&.bg-alt + &.bg-alt, &:not(.bg-alt) + section:not(.bg-alt) {
+		padding-top: 0;
+	}
 }
 img {
 	width: 100%;
@@ -55,19 +59,6 @@ i[class^="icon-"] {
 	margin: auto;
 	padding: 0 12px;
 }
-.fc {
-	display: flex;
-	gap: 32px;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.fdc {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
-	gap: 32px;
-}
 // Панель админка
 #wpadminbar {
 	top: unset;
@@ -75,23 +66,6 @@ i[class^="icon-"] {
 	position: fixed;
 }
 
-// Заголовки
-.center {
-	text-align: center;
-	max-width: 900px;
-	margin: auto;
-}
-.left {
-	text-align: left;
-}
-
-// Допы
-.upc {
-	text-transform: uppercase;
-}
-.bg {
-	background: var(--bg1);
-}
 // Цвета фона
 .bg-alt {
 	background: var(--bg2);
@@ -112,4 +86,42 @@ i[class^="icon-"] {
 	height: 16px;
 	background: var(--accent);
 	border-radius: 2px;
+}
+
+a i,
+button i {
+	margin-right: 8px;
+}
+
+// Допы
+// Заголовки
+.center {
+	text-align: center;
+	max-width: 900px;
+	margin: auto;
+}
+.upc {
+	text-transform: uppercase;
+}
+.left {
+	text-align: left;
+}
+.bg {
+	background: var(--bg1);
+}
+.tch {
+	color: var(--head);
+}
+.fc {
+	display: flex;
+	gap: 32px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.fdc {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 32px;
 }

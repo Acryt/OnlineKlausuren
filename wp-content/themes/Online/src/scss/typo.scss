@@ -27,20 +27,20 @@ h6 {
 	margin: auto;
 }
 h1 {
-	@include responsiveFont(28, 56);
+	@include responsiveFont(40, 56);
 	line-height: 128%;
 }
 h2 {
-	@include responsiveFont(24, 40);
+	@include responsiveFont(30, 40);
 }
 h3 {
-	@include responsiveFont(22, 30);
+	@include responsiveFont(24, 32);
 }
 h4 {
-	@include responsiveFont(20, 26);
+	@include responsiveFont(16, 24);
 }
 h5 {
-	@include responsiveFont(18, 22);
+	@include responsiveFont(16, 22);
 }
 h6 {
 	@include responsiveFont(16, 18);

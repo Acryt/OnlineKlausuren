@@ -17,8 +17,8 @@
 				und Kundinnen haben sie bis jetzt nur positive Ghostwriter-Online-Klausur-Erfahrungen gehabt.</p>
 			<a href="#fb" class="btn__height"><i class="icon-calculator"></i> Preis kalkulieren</a>
 		</div>
-		<form class="tt-parts__short form bg" id="form-first" accept-charset="utf-8">
-			<p class="upc title"><strong>Füllen Sie das kurze Formular aus und erhalten Sie Hilfe bei Ihrer Online-Prüfung</strong></p>
+		<form class="tt-parts__short-form form bg" id="form-first" accept-charset="utf-8">
+			<p class="upc title center"><strong>Füllen Sie das kurze Formular aus und erhalten Sie Hilfe bei Ihrer <br> Online-Prüfung</strong></p>
 			<div class="form__item">
 				<label for="name">Name</label>
 				<input type="text" name="name" placeholder="Dein Name">
@@ -33,11 +33,11 @@
 			</div>
 			<div class="form__item">
 				<button class="btn" type="submit">
-					<i class="fa-solid fa-pen"></i>
+					<i class="icon-pen"></i>
 					<span>Das Formular abschicken</span>
 				</button>
 			</div>
-			<a href="#" class="form__link upc"><i class="fa-solid fa-shield-halved"></i><strong>Unsere
+			<a href="#" class="form__link upc"><i class="icon-guarantee"></i><strong>Unsere
 					Garantien</strong></a>
 		</form>
 		<div class="form__pay">

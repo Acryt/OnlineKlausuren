@@ -9,6 +9,7 @@
 		justify-content: center;
 		& > * {
 			flex: 0 1 200px;
+			height: unset;
 		}
 	}
 	&__img {
@@ -20,7 +21,15 @@
 			object-fit: cover;
 		}
 	}
-	.btn__active {
+	.btn__hover {
 		padding: 4px 16px;
+		justify-content: center;
+
+		&:first-child {
+			background: var(--active);
+			&:hover {
+				background: var(--hover);
+			}
+		}
 	}
 }

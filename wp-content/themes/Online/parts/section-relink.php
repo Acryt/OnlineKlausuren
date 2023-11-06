@@ -48,12 +48,12 @@
 			<p class="center">Kein Problem! Wir helfen, Online-Klausuren in jedem Fachbereich zu schreiben. Wir arbeiten
 				mit über 300 Disziplinen.</p>
 			<div class="connect__btns">
-				<a class="btn__active">
+				<a class="btn__hover">
 					<div class="connect__img"><img src="<?php echo URI . IMG . 'erica.jpg' ?>" alt=""></div>
-					<i class="fa-brands fa-whatsapp"></i>Erika
+					<i class="icon-whatsapp-w"></i>Erika
 				</a>
-				<button class="btn__active"><i class="fa-solid fa-envelope"></i>E-Mail schreiben</button>
-				<button class="btn__active"><i class="fa-solid fa-phone"></i>Rückruf bestellen</button>
+				<a class="btn__hover"><i class="icon-email"></i>E-Mail schreiben</a>
+				<a class="btn__hover"><i class="icon-phone"></i>Rückruf bestellen</a>
 			</div>
 		</div>
 	</div>

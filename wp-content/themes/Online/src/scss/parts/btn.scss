@@ -9,6 +9,7 @@
 	border: unset;
 	cursor: pointer;
 	transition: all 0.5s;
+	height: fit-content;
 	&:hover {
 		background: var(--hover);
 		color: var(--head);
