@@ -6,19 +6,24 @@
 				<?php
 				if (is_category()) {
 					echo single_term_title();
-				} else {
-					echo '<span>Ghostwriter</span> für Online-Klausuren und Online-Prüfungen';
+				} 
+				elseif (carbon_get_post_meta(get_the_ID(), 'cf_title_title')) {
+					echo carbon_get_post_meta(get_the_ID(), 'cf_title_title');
+				}
+				else {
+					echo '<span>Ghostwriter</span> für Online-Klausuren oder Online-Prüfungen';
 				}
 				?>
 			</h1>
-			<p>Wenn Sie nicht sicher sind, dass Sie eine Online-Klausur oder eine Online-Prüfung selbst bestehen können,
-				lassen Sie sich von einem Ghostwriter dabei helfen. Unser Experte bzw. unsere Expertin wird zur Zeit online
-				sein und Sie können ihm/ihr Fragen stellen und von ihm/ihr Antworten bekommen. Nach Worten unserer Kunden
-				und Kundinnen haben sie bis jetzt nur positive Ghostwriter-Online-Klausur-Erfahrungen gehabt.</p>
+			<?php 
+			if (carbon_get_post_meta(get_the_ID(), 'cf_title_sub')) {
+				echo '<p>' . carbon_get_post_meta(get_the_ID(), 'cf_title_sub') . '</p>';
+			}
+			?>
 			<a href="#fb" class="btn__height"><i class="icon-calculator"></i> Preis kalkulieren</a>
 		</div>
 		<form class="tt-parts__short-form form bg" id="form-first" accept-charset="utf-8">
-			<p class="upc title center"><strong>Füllen Sie das kurze Formular aus und erhalten Sie Hilfe bei Ihrer <br> Online-Prüfung</strong></p>
+			<p class="upc title center"><strong>FÜLLEN SIE DAS KURZE FORMULAR <br>AUS UND ERHALTEN SIE HILFE BEI <br>IHRER ONLINE-PRÜFUNG</strong></p>
 			<div class="form__item">
 				<label for="name">Name</label>
 				<input type="text" name="name" placeholder="Dein Name">

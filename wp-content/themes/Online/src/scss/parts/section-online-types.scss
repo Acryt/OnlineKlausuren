@@ -3,33 +3,30 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 24px;
-		align-items: center;
+		align-items: stretch;
 		transition: all 0.5s;
-		min-height: 400px;
 	}
 	&__item {
 		flex: 1 0 280px;
 		display: flex;
 		flex-wrap: wrap;
+		align-content: flex-start;
 		background: var(--bg1);
 		border-radius: 8px;
 		padding: 24px;
 		gap: 12px;
 		cursor: pointer;
 		transition: all 0.5s;
-		min-height: 330px;
 		.btn__height {
 			height: 0;
-			padding-top: 0;
-			padding-bottom: 0;
 			overflow: hidden;
-			max-width: 230px;
-			margin: auto;
+			padding: 0 12px;
+			width: 100%;
+			margin-top: auto;
 		}
 		&:hover {
 			.btn__height {
-				padding-top: 12px;
-				padding-bottom: 12px;
+				padding: 12px;
 				height: 48px;
 			}
 		}
@@ -37,5 +34,9 @@
 	&__img {
 		width: 80px;
 		height: 80px;
+	}
+	h4 {
+		flex: 1 1 160px;
+		margin: 0;
 	}
 }

@@ -1,6 +1,6 @@
 <section class="form-blitz bg-hover">
 	<div class="wrapper">
-		<h2>Jetzt eine unverbindliche Bewerbung abgeben!</h2>
+		<h2>Jetzt eine unverbindliche Anfrage hinterlassen</h2>
 		<form class="form form-blitz__form" id="form-blitz" accept-charset="utf-8">
 			<div class="form__item">
 				<label for="name">Name</label>

@@ -109,6 +109,16 @@ ul {
 		color: var(--text);
 		margin: 0px;
 		margin-bottom: 0.5em;
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 8px;
+			width: 4px;
+			height: 4px;
+			border-radius: 50%;
+			background: var(--accent);
+		}
 	}
 }
 ol {
@@ -133,8 +143,7 @@ option {
 	@include responsiveFont(14, 16);
 }
 strong {
-	font-weight: 600;
-	@include responsiveFont(16, 18);
+	font-weight: 500;
 }
 p span {
 	color: var(--accent);

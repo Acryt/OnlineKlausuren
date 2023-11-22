@@ -36,7 +36,7 @@ section {
 	position: relative;
 	padding: 80px 0;
 
-	&.bg-alt + &.bg-alt, &:not(.bg-alt) + section:not(.bg-alt) {
+	&.bg + &.bg, &.bg-alt + &.bg-alt, &.bg-accent + &.bg-accent, &.bg-hover + &.bg-hover, &.bg-active + &.bg-active, &:not(.bg-alt, .bg-accent, .bg-hover, .bg-active) + &:not(.bg-alt, .bg-accent, .bg-hover, .bg-active) {
 		padding-top: 0;
 	}
 }
@@ -59,6 +59,18 @@ i[class^="icon-"] {
 	margin: auto;
 	padding: 0 12px;
 }
+.wrapper-m {
+	position: relative;
+	max-width: 1032px;
+	margin: auto;
+	padding: 0 12px;
+}
+.wrapper-s {
+	position: relative;
+	max-width: 800px;
+	margin: auto;
+	padding: 0 12px;
+}
 // Панель админка
 #wpadminbar {
 	top: unset;
@@ -67,6 +79,9 @@ i[class^="icon-"] {
 }
 
 // Цвета фона
+.bg {
+	background: var(--bg1);
+}
 .bg-alt {
 	background: var(--bg2);
 }
@@ -99,6 +114,8 @@ button i {
 	text-align: center;
 	max-width: 900px;
 	margin: auto;
+	justify-content: center;
+	align-items: center;
 }
 .upc {
 	text-transform: uppercase;

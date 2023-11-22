@@ -1,12 +1,6 @@
 <section id="faq" class="faq">
 	<div class="wrapper">
-		<h2>FAQ zur Ghostwriting Online-Klausur</h2>
-		<p class="center">Bitte bedenken Sie, dass auch eine schnelle und professionelle Online-Hilfe für die Prüfung
-			keine
-			Garantie für eine hervorragende Note ist, wenn die Arbeit mündlich verteidigt und erläutert werden muss. Von
-			Ihnen wird verlangt, dass Sie die Grundlagen des Fachs kennen, die Notation der Formeln verstehen, sich Ihrer
-			Fähigkeiten sicher sind, die wichtigsten Lehrbücher nennen können (ggf. Formeln und Definitionen nachschlagen)
-			usw.</p>
+		<h2><?php echo carbon_get_theme_option('cf_faq_title'); ?></h2>
 		<div class="faq__cont">
 			<div class="faq__item">
 				<input class="faq__check" type="checkbox" name="faq" id="faq01">

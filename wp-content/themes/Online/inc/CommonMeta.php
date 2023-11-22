@@ -36,9 +36,46 @@ class CommonMeta
 				->set_width(30),
 			Field::make('text', 'cf_instagram', __('Instagram'))
 				->set_width(30),
+			Field::make('textarea', 'cf_warning', __('Предупреждение под первым экраном'))
+				->set_width(50),
 			Field::make('separator', 'cf_scripts', __('Встраиваемые скрипты')),
 			Field::make("header_scripts", "cf_header_script", __('Head Meta')),
 			Field::make("footer_scripts", "cf_footer_script", __('Body Meta')),
+		];
+	}
+	public static function titleMeta (): array
+	{
+		return [
+			Field::make('separator', 'cf_title_s1', __('Первый экран')),
+			Field::make('text', 'cf_title_title', __('Заголовок страницы'))
+				->set_width(50),
+			Field::make('textarea', 'cf_title_sub', __('Подзаголовок страницы'))
+				->set_width(50),
+
+			Field::make('separator', 'cf_title_s2', __('Наша помощь')),
+			Field::make('text', 'cf_title_ourhelp', __('Заголовок "кому нужна наша помощь"'))
+				->set_width(50),
+
+			Field::make('separator', 'cf_title_s3', __('Перелинковка')),
+			Field::make('text', 'cf_title_relink', __('Заголовок перелинковки')),
+
+			Field::make('separator', 'cf_title_s4', __('TTP1 (кампутерок)')),
+			Field::make('text', 'cf_title_ttp1', __('Заголовок'))
+				->set_width(40),
+			Field::make('rich_text', 'cf_title_ttp1sub', __('Текст'))
+				->set_width(60),
+
+			Field::make('separator', 'cf_title_s5', __('TTP2 (калькуль)')),
+			Field::make('text', 'cf_title_ttp2', __('Заголовок'))
+				->set_width(40),
+			Field::make('rich_text', 'cf_title_ttp2_sub', __('Текст'))
+				->set_width(60),
+
+			Field::make('separator', 'cf_title_s6', __('TTP3 (человеки)')),
+			Field::make('text', 'cf_title_ttp3', __('Заголовок'))
+				->set_width(40),
+			Field::make('rich_text', 'cf_title_ttp3_sub', __('Текст'))
+				->set_width(60),
 		];
 	}
 	public static function faqMeta (): array
@@ -71,37 +108,6 @@ class CommonMeta
 					<%- "Name" %>
 				<% } %>
 				')
-		];
-	}
-	public static function titleMeta (): array
-	{
-		return [
-			Field::make('separator', 'cf_title_s1', __('Первый экран')),
-			Field::make('text', 'cf_title_title', __('Заголовок страницы'))
-				->set_width(50),
-			Field::make('text', 'cf_title_sub', __('Подзаголовок страницы'))
-				->set_width(50),
-
-			Field::make('separator', 'cf_title_s2', __('Перелинковка')),
-			Field::make('text', 'cf_title_relink', __('Заголовок перелинковки')),
-
-			Field::make('separator', 'cf_title_s3', __('TTP1 (кампутерок)')),
-			Field::make('text', 'cf_title_ttp1', __('Заголовок'))
-				->set_width(40),
-			Field::make('rich_text', 'cf_title_ttp1sub', __('Текст'))
-				->set_width(60),
-
-			Field::make('separator', 'cf_title_s4', __('TTP2 (калькуль)')),
-			Field::make('text', 'cf_title_ttp2', __('Заголовок'))
-				->set_width(40),
-			Field::make('rich_text', 'cf_title_ttp2_sub', __('Текст'))
-				->set_width(60),
-
-			Field::make('separator', 'cf_title_s5', __('TTP3 (человеки)')),
-			Field::make('text', 'cf_title_ttp3', __('Заголовок'))
-				->set_width(40),
-			Field::make('rich_text', 'cf_title_ttp3_sub', __('Текст'))
-				->set_width(60),
 		];
 	}
 	public static function stagesMeta (): array

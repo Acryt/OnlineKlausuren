@@ -9,9 +9,9 @@
 	&__cont {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 32px;
+		gap: 20px;
 		justify-content: space-around;
-		padding: 40px;
+		padding: 8px;
 	}
 	&__item {
 		position: relative;
@@ -21,7 +21,7 @@
 		border-top: 8px solid var(--hover);
 		border-radius: 8px;
 		margin-top: 60px;
-		padding: 24px;
+		padding: 16px;
 		padding-top: 80px;
 	}
 	&__img {

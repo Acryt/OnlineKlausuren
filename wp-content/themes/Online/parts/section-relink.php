@@ -1,6 +1,6 @@
 <section id="relink" class="relink">
 	<div class="wrapper fc">
-		<h2>Unsere Ghostwriter helfen Ihnen, Ihre Online-Klausur zu jedem Thema zu schreiben</h2>
+		<h2><?php echo carbon_get_post_meta(get_the_ID(), 'cf_title_relink'); ?></h2>
 		<div class="relink__cont">
 			<a class="relink__item"><i class="icon-microscope"></i>Biologie</a>
 			<a class="relink__item"><i class="icon-hard-hat"></i>Ingenieurwissenschaften</a>

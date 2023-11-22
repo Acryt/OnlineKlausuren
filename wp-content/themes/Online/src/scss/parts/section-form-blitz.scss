@@ -1,15 +1,15 @@
 .form-blitz {
 	padding: 32px 0;
 	&__form {
-		display: flex;
-		justify-content: space-between;
-		gap: 32px;
+		// display: flex;
+		// justify-content: space-between;
+		// gap: 32px;
 	}
-	&__item {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
-		flex: 1 1 280px;
+	.form__item {
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: flex-end;
+		// flex: 1 1 280px;
 
 		input {
 			height: 40px;

@@ -41,7 +41,7 @@
 			</div>
 			<div class="tt-parts__short">
 				<div class="tt-parts__cont-img"><img src="<?php echo URI . IMG . 'mid/8.svg' ?>" alt=""></div>
-				<p class="tch">Wenn Sie eine oder mehrere der oben genannten Schwierigkeiten haben, wenden Sie sich bitte an
+				<p class="tch center">Wenn Sie eine oder mehrere der oben genannten Schwierigkeiten haben, wenden Sie sich bitte an
 					uns. Unsere Ghostwriter helfen Ihnen, Online-Klausur oder Online-Prüfung zu schreiben!</p>
 				<div class="tt-parts__btn">
 					<img src="<?php echo URI . IMG . 'btn-yellow.svg' ?>" alt="">

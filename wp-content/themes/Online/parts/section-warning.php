@@ -1,6 +1,7 @@
-<section class="warning">
-	<div class="wrapper upc">
-		<p>❗ Wir leisten Hilfe nur für Online-Prüfungen und Online-Klausuren ohne Proctoring-System (Ausweiskontrolle,
-			Videoüberwachung). Bei Präsenzklausuren können wir keine Unterstützung anbieten.</p>
-	</div>
-</section>
+<?php if (carbon_get_theme_option("cf_warning")) { ?>
+	<section class="warning">
+		<div class="wrapper upc">
+			<p><strong><?php echo carbon_get_theme_option("cf_warning"); ?></strong></p>
+		</div>
+	</section>
+<?php } ?>

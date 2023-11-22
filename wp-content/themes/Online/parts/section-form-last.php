@@ -1,7 +1,6 @@
 <section class="form-last">
 	<div class="wrapper">
-		<h2 class="upc">Haben Sie die Antwort auf Ihre Frage nicht gefunden? <br>
-			Stellen Sie Ihre Frage in diesem Fenster</h2>
+		<h4 class="upc">Haben Sie die Antwort auf Ihre Frage nicht gefunden?<br>Bitte hinterlassen Sie eine Anfrage</h4>
 		<p class="center">Unser:e Kundenbetreuer:in wird Sie innerhalb von 15 Minuten kontaktieren</p>
 		<form class="form-last__form">
 			<div class="form-last__item">
