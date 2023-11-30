@@ -8,7 +8,6 @@ get_header();
 <main>
 <?php 
 	get_template_part( SECTION . 'section-first-screen');
-	get_template_part( SECTION . 'section-images');
 	get_template_part( SECTION . 'section-warning');
 	get_template_part( SECTION . 'section-our-help');
 	get_template_part( SECTION . 'section-relink');
@@ -18,7 +17,7 @@ get_header();
 	get_template_part( SECTION . 'section-form-blitz');
 	get_template_part( SECTION . 'section-guarantees');
 	get_template_part( SECTION . 'section-online-types');
-
+	
 	get_template_part( SECTION . 'section-tt-parts1');
 	get_template_part( SECTION . 'section-advantages');
 	get_template_part( SECTION . 'section-connect');
@@ -27,6 +26,7 @@ get_header();
 	get_template_part( SECTION . 'section-slider-blog');
 	get_template_part( SECTION . 'section-faq');
 	get_template_part( SECTION . 'section-form-last');
+	get_template_part( SECTION . 'section-images');
 	
 	
 	// get_template_part( SECTION . 'section-img-text-table');

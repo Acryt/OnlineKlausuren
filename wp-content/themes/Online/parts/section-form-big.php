@@ -17,8 +17,8 @@
 					<input type="time" name="time">
 				</div>
 				<div class="form__item">
-					<label for="discipline">* Farhrichtung</label>
-					<input type="text" name="name" placeholder="Geben Sie Farhrichtung">
+					<label for="discipline">* Fachrichtung</label>
+					<input type="text" name="name" placeholder="Geben Sie Fachrichtung">
 				</div>
 				<div class="form__item-cont">
 					<div class="form__item short">
