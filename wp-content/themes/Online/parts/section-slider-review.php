@@ -3,31 +3,18 @@
 		<h3>Feedback der Studenten</h3>
 		<div class="swiper slider-review__swiper">
 			<div class="swiper-wrapper">
-				<a class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1" href="http://placekitten.com/200/320">
-					<img src="http://placekitten.com/200/320">
-				</a>
-				<a class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1" href="http://placekitten.com/200/320">
-					<img src="http://placekitten.com/200/320">
-				</a>
-				<a class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1" href="http://placekitten.com/200/320">
-					<img src="http://placekitten.com/200/320">
-				</a>
-				<a class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1" href="http://placekitten.com/200/320">
-					<img src="http://placekitten.com/200/320">
-				</a>
-				<div class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1" href="http://placekitten.com/200/320">
-					<img src="http://placekitten.com/200/320">
-				</div>
-				<div class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1" href="http://placekitten.com/200/320">
-					<img src="http://placekitten.com/200/320">
-				</div>
-				<div class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1" href="http://placekitten.com/200/320">
-					<img src="http://placekitten.com/200/320">
-				</div>
+				<?php
+				$reviews = carbon_get_theme_option('cf_review_slider');
+				foreach ($reviews as $review) { ?>
+					<div class="swiper-slide slider-review__slide" data-fancybox="review" data-caption="#1"
+						href="<?php echo $review['image']; ?>">
+						<img src="<?php echo $review['image']; ?>">
+					</div>
+				<?php } ?>
 			</div>
 			<div class="slider-review__prev"><i class="fa-solid fa-arrow-left"></i></div>
 			<div class="slider-review__next"><i class="fa-solid fa-arrow-right"></i></div>
-			<div class="slider-review__pagination"></div>
+			<!-- <div class="slider-review__pagination"></div> -->
 		</div>
 	</div>
 </section>

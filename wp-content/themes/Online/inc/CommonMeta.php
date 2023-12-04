@@ -240,7 +240,7 @@ class CommonMeta
 		return [
 			Field::make('text', 'cf_review_title', __('Заголовок')),
 			Field::make('text', 'cf_review_sub', __('Подзаголовок')),
-			Field::make('complex', 'cf_review_accrd', __('Отзывы'))
+			Field::make('complex', 'cf_review_slider', __('Отзывы'))
 				->set_layout('tabbed-horizontal')
 				->set_width(10)
 				->add_fields(
